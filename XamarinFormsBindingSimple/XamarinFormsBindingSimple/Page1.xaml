@@ -4,6 +4,6 @@
              x:Class="XamarinFormsBindingSimple.Page1">
 	<StackLayout VerticalOptions="Center">
 		<Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
-		<Button Text="Add!" />
+		<Button Text="Add!" Clicked="Button_Clicked" />
 	</StackLayout>
 </ContentPage>
